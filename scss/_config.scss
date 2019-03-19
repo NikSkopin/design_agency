@@ -5,36 +5,3 @@ $accent-color: #05fab8; //green
 $background-opacity: 0.8;
 
 $primary-font: 'Poppins', sans-serif;
-
-@mixin btn {
-    display: block;
-    width: 216px;
-    padding-top: 26px;
-    padding-bottom: 26px;
-    padding-left: 29px;
-    border: $primary-color 1px solid;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 1.125rem;
-}
-
-@mixin btn-light {
-    color: $primary-color;
-}
-
-@mixin btn-dark {
-
-}
-
-@mixin btn-green {
-
-}
-
-@mixin green-dot {
-        display: inline-block;
-        width: 12px;
-        height: 12px;
-        margin-right: 16px;
-        border-radius: 50%;
-        background-color: $accent-color;       
-}
