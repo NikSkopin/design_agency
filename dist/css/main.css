@@ -2,4 +2,157 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  background-color: #f6faff;
+  color: #2f3031;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-light {
+  color: #f6faff;
+}
+
+.text-dark {
+  color: #2f3031;
+}
+
+main {
+  background-image: url(/dist/img/main-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+
+main:before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(47, 48, 49, 0.8);
+  z-index: -1;
+}
+
+main:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgba(5, 250, 184, 0.8);
+  z-index: -1;
+}
+
+.container {
+  z-index: 1;
+  width: 84%;
+  max-width: 1350px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #f6faff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.header-logo p {
+  display: inline;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.header-nav {
+  position: relative;
+  display: inline-block;
+}
+
+.header-nav:hover .nav-menu {
+  display: block;
+}
+
+.header-nav .nav-menu {
+  display: none;
+  position: absolute;
+  background-color: rgba(47, 48, 49, 0.9);
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin: 0;
+}
+
+.header-nav .nav-menu .nav-item {
+  color: #f6faff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.header-nav .nav-menu .nav-item:hover {
+  background-color: #05fab8;
+}
+
+.header-button {
+  background: none;
+  border: none;
+}
+
+.header-button span {
+  border: 2px solid #2f3031;
+  width: 29px;
+  display: block;
+  margin: 5px 0;
+}
+
+.main-slogan {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-top: 150px;
+  text-align: center;
+  text-transform: capitalize;
+  padding-left: 4rem;
+}
+
+.main-slogan span {
+  margin-left: 2rem;
+}
+
+.main-btn {
+  display: block;
+  width: 216px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-left: 29px;
+  border: #f6faff 1px solid;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #f6faff;
+}
+
+.main-btn span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 16px;
+  border-radius: 50%;
+  background-color: #05fab8;
+}
 /*# sourceMappingURL=main.css.map */
