@@ -228,6 +228,115 @@
   max-height: 386px;
 }
 
+.testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.testimonials-left {
+  -webkit-box-flex: 1.5;
+      -ms-flex: 1.5;
+          flex: 1.5;
+  background-image: url(/dist/img/testimonials.jpg);
+  background-size: cover;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  z-index: 0;
+}
+
+.testimonials-left:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(5, 250, 184, 0.7);
+  z-index: -1;
+}
+
+.testimonials-left .quote-container {
+  margin-top: 150px;
+  margin-bottom: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 635px;
+  padding-left: 4rem;
+  z-index: 2;
+}
+
+.testimonials-left .quote-container i {
+  font-size: 40px;
+}
+
+.testimonials-left .quote-container .quote {
+  max-width: 635px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.testimonials-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.testimonials-right h1 {
+  margin: 82px auto;
+  text-align: center;
+  padding: 0;
+  font-size: 60px;
+  position: relative;
+  width: 379px;
+}
+
+.testimonials-right h1:before {
+  content: "";
+  position: absolute;
+  bottom: 14px;
+  width: 150px;
+  left: -50px;
+  border-bottom: 8px solid #05fab8;
+  z-index: -1;
+}
+
+.testimonials-right .caroussel {
+  width: 380px;
+  height: 280px;
+  margin: 0 auto;
+  background-color: #05fab8;
+  padding-top: 4rem;
+}
+
+.testimonials-right .caroussel a {
+  margin: 0 auto;
+}
+
+.testimonials-right .caroussel-dots {
+  margin: 30px auto;
+  width: 70px;
+}
+
+.testimonials-right .caroussel-dots span {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid #2f3031;
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.testimonials .caroussel-dot-active {
+  background-color: #2f3031;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -320,6 +429,32 @@ h1 {
   width: 62px;
   left: 151px;
   border-bottom: 2px solid #05fab8;
+}
+
+.dot-dark {
+  background-color: #2f3031;
+}
+
+.dot-dark:before {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  width: 62px;
+  left: 151px;
+  border-bottom: 2px solid #2f3031;
+}
+
+.dot-light {
+  background-color: #f6faff;
+}
+
+.dot-light:before {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  width: 62px;
+  left: 151px;
+  border-bottom: 2px solid #f6faff;
 }
 
 main {

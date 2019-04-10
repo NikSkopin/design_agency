@@ -2,6 +2,7 @@
 @import 'about';
 @import 'services';
 @import 'portfolio';
+@import 'testimonials';
 
 //general styles and common elements -- start
 * {
@@ -94,6 +95,32 @@ h1 {
             width: 62px;
             left: 151px; 
             border-bottom: 2px solid $accent-color;
+        }
+    }
+
+    &-dark {
+        background-color: $secondary-color;
+
+        &:before {
+            content: "";
+            position: absolute;
+            bottom: 50%;
+            width: 62px;
+            left: 151px; 
+            border-bottom: 2px solid $secondary-color;
+        }
+    }
+
+    &-light {
+        background-color: $primary-color;
+
+        &:before {
+            content: "";
+            position: absolute;
+            bottom: 50%;
+            width: 62px;
+            left: 151px; 
+            border-bottom: 2px solid $primary-color;
         }
     }
 }
