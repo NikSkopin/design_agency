@@ -19,6 +19,7 @@ body {
 
 a {
     text-decoration: none;
+    color: $secondary-color;
 }
 
 h1 {
@@ -264,5 +265,37 @@ main {
     }
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    // line-height: 1.15;
+    padding: 2rem;
+    font-size: 18px;
+    font-weight: 500;
+
+    p {
+        flex: 2;
+        margin: 0;
+    }
+
+    .links {
+        flex: 1.5;
+        margin: 0;
+        
+    }
+
+    .social-media {
+        flex: 0.5;
+
+        a {
+            margin-left: 10px;
+            &:hover {
+                color: $accent-color;
+            }
+        }
+
+        
+    }
+}
 
 
