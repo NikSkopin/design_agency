@@ -1,0 +1,58 @@
+.send-us {
+    position: relative;
+
+    .container:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        height: 100px;
+        right: 0;
+        border-right: 4px solid $accent-color;        
+    }
+
+    &-form {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        width: 60%;
+        margin: 0 auto;
+
+        &-input {
+            display: block;
+            margin-bottom: 10px;
+            border: none;
+            border-bottom: 1px solid $accent-color;
+            background-color: $primary-color;
+            height: 50px;
+            width: 100%;
+        }
+
+        #submit {
+            display: block;
+            margin-top: 40px;
+            background-color: $primary-color;
+            height: 60px;
+            width: 180px;
+            border-radius: 5px;
+            font-weight: 700;
+            font-size: 1.125rem;
+            text-transform: uppercase;
+            border: 2px solid $secondary-color;
+            color: $secondary-color;
+            opacity: 0.8;
+        }
+    }
+
+    .scroll-to-top {
+        writing-mode: sideways-lr;
+        position: absolute;
+        top: 105px;
+        right: -7px;
+        font-weight: 400;
+        font-size: 18px;
+        
+        a {
+            color: $secondary-color;
+        }
+    }
+    
+}

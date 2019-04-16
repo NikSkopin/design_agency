@@ -337,6 +337,116 @@
   background-color: #2f3031;
 }
 
+.contact {
+  background-image: url(/dist/img/contact.jpg);
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.contact:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(47, 48, 49, 0.8);
+  z-index: -1;
+}
+
+.contact .container:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 160px;
+  right: 0;
+  border-right: 4px solid #05fab8;
+}
+
+.contact h1 {
+  color: #f6faff;
+  padding-top: 130px;
+  text-align: center;
+  text-transform: none;
+}
+
+.contact a {
+  margin: 90px auto 90px auto;
+}
+
+.contact p {
+  text-align: center;
+  color: #f6faff;
+  font-size: 24px;
+  padding-bottom: 90px;
+  margin: 0;
+}
+
+.contact p a {
+  color: #05fab8;
+}
+
+.send-us {
+  position: relative;
+}
+
+.send-us .container:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100px;
+  right: 0;
+  border-right: 4px solid #05fab8;
+}
+
+.send-us-form {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.send-us-form-input {
+  display: block;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #05fab8;
+  background-color: #f6faff;
+  height: 50px;
+  width: 100%;
+}
+
+.send-us-form #submit {
+  display: block;
+  margin-top: 40px;
+  background-color: #f6faff;
+  height: 60px;
+  width: 180px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  border: 2px solid #2f3031;
+  color: #2f3031;
+  opacity: 0.8;
+}
+
+.send-us .scroll-to-top {
+  -webkit-writing-mode: sideways-lr;
+      -ms-writing-mode: sideways-lr;
+          writing-mode: sideways-lr;
+  position: absolute;
+  top: 105px;
+  right: -7px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.send-us .scroll-to-top a {
+  color: #2f3031;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -407,6 +517,11 @@ h1 {
 .btn-dark {
   border: 2px solid #2f3031;
   color: #2f3031;
+}
+
+.btn-green {
+  border: 2px solid #05fab8;
+  color: #05fab8;
 }
 
 .dot {

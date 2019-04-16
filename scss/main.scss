@@ -3,6 +3,8 @@
 @import 'services';
 @import 'portfolio';
 @import 'testimonials';
+@import 'contact';
+@import 'send-us';
 
 //general styles and common elements -- start
 * {
@@ -74,6 +76,11 @@ h1 {
     &-dark {
         border: 2px solid $secondary-color;
         color: $secondary-color;
+    }
+
+    &-green {
+        border: 2px solid $accent-color;
+        color: $accent-color;
     }
 }
 
