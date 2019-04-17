@@ -132,10 +132,23 @@ h1 {
         }
     }
 }
+
+.section-h1 {
+    margin: 0 0 40px 0;
+    padding-top: 120px;
+}
+
+.section-p {
+    font-size: 18px;
+    max-width: 972px;
+    margin-bottom: 90px;
+    line-height: 26px;
+
+}
 //general styles and common elements -- end
 
 main {
-    background-image: url(/dist/img/main-bg.jpg);
+    background-image: url(../img/main-bg.jpg);
     background-size: cover;
     height: 100vh;
     position: relative;
