@@ -1,0 +1,428 @@
+@include mediaMd {
+
+    .container {
+        width: 95%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        // padding-bottom: 150px;
+    }
+    .slogan-container {
+        width: auto;
+        padding-left: 0;
+        padding-bottom: 150px;
+    }
+
+    .section-h1 {
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    .section-p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .btn {
+        margin: 0 auto;
+    }
+
+    main {
+        height: auto;
+
+        &:before {
+            width: 100%;
+        }
+        &:after {
+            display: none;
+        }
+    }
+
+    .header {
+        &-button {
+            span {
+                border: 2px solid $primary-color;
+            }
+        }
+    }
+
+    .nav-menu {
+        right: 0;
+    }
+
+    .main-slogan {
+        margin-top: 100px;
+        margin-bottom: 50px;
+
+        &-p1 {
+            display: block;
+            margin: 0;
+        }
+        &-p2 {
+            display: block;
+            color: $primary-color;
+            margin: 0;
+        }
+    }
+
+    .uxui {
+        display: none;
+    }
+
+    //about
+    .techs-container {
+        flex-flow: row wrap;
+        padding-bottom: 0;
+
+        .techs {
+
+            &-logo {
+                font-size: 50px;
+                &:before {
+                    border-bottom: 8px solid $accent-color;
+
+                }
+
+            }
+            &-h2 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 36px;
+            }
+        }
+
+        p {
+            margin-bottom: 50px;
+            font-size: 16px;
+        }
+
+    }
+
+    .about-aside {
+        display: none;
+    }
+
+
+    //services
+    .services-container {
+        flex-flow: row wrap;
+        padding-bottom: 0;
+
+        .serv {
+            margin: 0;
+            padding-bottom: 100px;
+            &-h2 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            p {
+               font-size: 16px; 
+               margin: 0;
+            }
+            .btn {
+                margin: 0 auto;
+            }
+        }
+    }
+
+    //portfolio
+    .portfolio-gallery {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    //testimonials
+    .testimonials {
+        flex-direction: column-reverse ;
+        padding: 0;
+        background-image: url(../img/testimonials.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+            &:before {
+                content: '';
+                position: absolute; 
+                width: 100%; 
+                height: 100%; 
+                top: 0;
+                left: 0;        
+                background-color: rgba($accent-color,0.7);
+                z-index: 0;
+            }
+            
+
+        &-left {
+            background-image: none;
+            &::before {
+                display: none;
+            }
+        }
+
+        &-right {
+            h1 {
+                margin-bottom: 30px;
+                width: auto;
+                &::before {
+                    display: none;
+                }
+            }
+            .caroussel {
+                display: none;
+            }
+        
+        }
+
+        .quote-container {
+            margin-top: 50px;
+        }
+
+    }
+
+    //contacts
+    .contact {
+        h1 {
+            margin: 0;
+        }
+    }
+
+    //send-us
+    .send-us {
+        .scroll-to-top {
+            display: none;
+        }
+    }
+
+    //footer
+    .footer {
+        flex-flow: row wrap-reverse;
+
+        p {
+            flex: none;
+        }
+
+        .links {
+            flex: none;
+            margin-bottom: 20px;
+
+        }
+
+        .social-media {
+            flex: none;
+        }
+    }
+
+}
+
+@include mediaSmall {
+    .container {
+        width: 95%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        // padding-bottom: 150px;
+    }
+    .slogan-container {
+        width: auto;
+        padding-left: 0;
+        padding-bottom: 150px;
+    }
+
+    .section-h1 {
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    .section-p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .btn {
+        margin: 0 auto;
+    }
+
+    main {
+        height: auto;
+
+        &:before {
+            width: 100%;
+        }
+        &:after {
+            display: none;
+        }
+    }
+
+    .header {
+        &-button {
+            span {
+                border: 2px solid $primary-color;
+            }
+        }
+    }
+
+    .nav-menu {
+        right: 0;
+    }
+
+    .main-slogan {
+        margin-top: 100px;
+        margin-bottom: 50px;
+
+        &-p1 {
+            display: block;
+            margin: 0;
+        }
+        &-p2 {
+            display: block;
+            color: $primary-color;
+            margin: 0;
+        }
+    }
+
+    .uxui {
+        display: none;
+    }
+
+    //about
+    .techs-container {
+        flex-flow: row wrap;
+        padding-bottom: 0;
+
+        .techs {
+
+            &-logo {
+                font-size: 50px;
+                &:before {
+                    border-bottom: 8px solid $accent-color;
+
+                }
+
+            }
+            &-h2 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 36px;
+            }
+        }
+
+        p {
+            margin-bottom: 50px;
+            font-size: 16px;
+        }
+
+    }
+
+    .about-aside {
+        display: none;
+    }
+
+
+    //services
+    .services-container {
+        flex-flow: row wrap;
+        padding-bottom: 0;
+
+        .serv {
+            margin: 0;
+            padding-bottom: 100px;
+            &-h2 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            p {
+               font-size: 16px; 
+               margin: 0;
+            }
+            .btn {
+                margin: 0 auto;
+            }
+        }
+    }
+
+    //portfolio
+    .portfolio-gallery {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    //testimonials
+    .testimonials {
+        flex-direction: column-reverse ;
+        padding: 0;
+        background-image: url(../img/testimonials.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+            &:before {
+                content: '';
+                position: absolute; 
+                width: 100%; 
+                height: 100%; 
+                top: 0;
+                left: 0;        
+                background-color: rgba($accent-color,0.7);
+                z-index: 0;
+            }
+            
+
+        &-left {
+            background-image: none;
+            &::before {
+                display: none;
+            }
+        }
+
+        &-right {
+            h1 {
+                margin-bottom: 30px;
+                width: auto;
+                &::before {
+                    display: none;
+                }
+            }
+            .caroussel {
+                display: none;
+            }
+        
+        }
+
+        .quote-container {
+            margin-top: 50px;
+        }
+
+    }
+
+    //contacts
+    .contact {
+        h1 {
+            margin: 0;
+        }
+    }
+
+    //send-us
+    .send-us {
+        .scroll-to-top {
+            display: none;
+        }
+    }
+
+    //footer
+    .footer {
+        flex-flow: row wrap-reverse;
+
+        p {
+            flex: none;
+        }
+
+        .links {
+            flex: none;
+            margin-bottom: 20px;
+
+        }
+
+        .social-media {
+            flex: none;
+            margin-bottom: 20px;
+        }
+    }
+}

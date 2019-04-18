@@ -48,13 +48,15 @@
         &-h2 {
             font-size: 36px;
             font-weight: 700;
-            line-height: 26px;
+            line-height: 1.15;
+            min-height: 80px;
         }
 
         p {
             font-size: 18px;
             font-weight: 500;
             line-height: 26px;
+            min-height: 100px;
 
 
             a {

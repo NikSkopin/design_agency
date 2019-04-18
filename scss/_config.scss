@@ -5,3 +5,17 @@ $accent-color: #05fab8; //green
 $background-opacity: 0.8;
 
 $primary-font: 'Poppins', sans-serif;
+
+
+@mixin mediaMd {
+    @media screen and (min-width: 501px) and (max-width: 968px) {
+        @content;
+    }
+}
+
+
+@mixin mediaSmall {
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
