@@ -9,7 +9,7 @@
   top: 0;
   height: 160px;
   left: 0;
-  border-left: 4px solid #05fab8;
+  border-left: 4px solid red;
 }
 
 .about_us .container:after {
@@ -18,7 +18,7 @@
   bottom: 0;
   height: 160px;
   right: 0;
-  border-right: 4px solid #05fab8;
+  border-right: 4px solid red;
 }
 
 .techs-container {
@@ -53,7 +53,7 @@
   bottom: 40%;
   width: 85%;
   left: 15%;
-  border-bottom: 14px solid #05fab8;
+  border-bottom: 14px solid red;
   z-index: -1;
 }
 
@@ -97,7 +97,7 @@
   top: 0;
   height: 160px;
   right: 0;
-  border-right: 4px solid #05fab8;
+  border-right: 4px solid red;
 }
 
 .services .container:before {
@@ -106,7 +106,7 @@
   bottom: 0;
   height: 160px;
   left: 0;
-  border-left: 4px solid #05fab8;
+  border-left: 4px solid red;
 }
 
 .services-container {
@@ -135,7 +135,7 @@
 }
 
 .services-container .serv-logo:hover {
-  color: #05fab8;
+  color: red;
 }
 
 .services-container .serv-h2 {
@@ -171,7 +171,7 @@
   top: 0;
   height: 160px;
   left: 0;
-  border-left: 4px solid #05fab8;
+  border-left: 4px solid red;
 }
 
 .portfolio-gallery {
@@ -198,7 +198,7 @@
   height: 0px;
   top: 0;
   left: 0;
-  background-color: rgba(5, 250, 184, 0.69);
+  background-color: rgba(255, 0, 0, 0.69);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 76%);
           clip-path: polygon(0 0, 100% 0, 100% 56%, 0 76%);
   z-index: 1;
@@ -278,7 +278,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(5, 250, 184, 0.7);
+  background-color: rgba(255, 0, 0, 0.7);
   z-index: -1;
 }
 
@@ -324,7 +324,7 @@
   bottom: 14px;
   width: 150px;
   left: -50px;
-  border-bottom: 8px solid #05fab8;
+  border-bottom: 8px solid red;
   z-index: -1;
 }
 
@@ -332,7 +332,7 @@
   width: 380px;
   height: 280px;
   margin: 0 auto;
-  background-color: #05fab8;
+  background-color: red;
   padding-top: 4rem;
 }
 
@@ -383,7 +383,7 @@
   bottom: 0;
   height: 160px;
   right: 0;
-  border-right: 4px solid #05fab8;
+  border-right: 4px solid red;
 }
 
 .contact h1 {
@@ -406,7 +406,7 @@
 }
 
 .contact p a {
-  color: #05fab8;
+  color: red;
 }
 
 .send-us {
@@ -419,7 +419,7 @@
   top: 0;
   height: 100px;
   right: 0;
-  border-right: 4px solid #05fab8;
+  border-right: 4px solid red;
 }
 
 .send-us-form {
@@ -433,7 +433,7 @@
   display: block;
   margin-bottom: 10px;
   border: none;
-  border-bottom: 1px solid #05fab8;
+  border-bottom: 1px solid red;
   background-color: #f6faff;
   height: 50px;
   width: 100%;
@@ -518,7 +518,7 @@ h1 {
 }
 
 .text-green {
-  color: #05fab8;
+  color: red;
 }
 
 .btn {
@@ -544,8 +544,8 @@ h1 {
 }
 
 .btn-green {
-  border: 2px solid #05fab8;
-  color: #05fab8;
+  border: 2px solid red;
+  color: red;
 }
 
 .dot {
@@ -558,7 +558,7 @@ h1 {
 }
 
 .dot-green {
-  background-color: #05fab8;
+  background-color: red;
 }
 
 .dot-green:before {
@@ -567,7 +567,7 @@ h1 {
   bottom: 50%;
   width: 62px;
   left: 151px;
-  border-bottom: 2px solid #05fab8;
+  border-bottom: 2px solid red;
 }
 
 .dot-dark {
@@ -634,7 +634,7 @@ main:after {
   height: 100%;
   top: 0;
   right: 0;
-  background-color: rgba(5, 250, 184, 0.8);
+  background-color: rgba(255, 0, 0, 0.8);
   z-index: -1;
 }
 
@@ -644,7 +644,7 @@ main .container:before {
   bottom: 0;
   height: 160px;
   left: 0;
-  border-left: 4px solid #05fab8;
+  border-left: 4px solid red;
 }
 
 .header {
@@ -696,7 +696,7 @@ main .container:before {
 }
 
 .header-nav .nav-menu .nav-item:hover {
-  background-color: #05fab8;
+  background-color: red;
 }
 
 .header-button {
@@ -781,7 +781,7 @@ main .container:before {
 }
 
 .footer .social-media a:hover {
-  color: #05fab8;
+  color: red;
 }
 
 @media screen and (min-width: 501px) and (max-width: 968px) {
@@ -848,7 +848,7 @@ main .container:before {
     font-size: 50px;
   }
   .techs-container .techs-logo:before {
-    border-bottom: 8px solid #05fab8;
+    border-bottom: 8px solid red;
   }
   .techs-container .techs-h2 {
     margin-top: 10px;
@@ -906,7 +906,7 @@ main .container:before {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(5, 250, 184, 0.7);
+    background-color: rgba(255, 0, 0, 0.7);
     z-index: 0;
   }
   .testimonials-left {
@@ -1022,7 +1022,7 @@ main .container:before {
     font-size: 50px;
   }
   .techs-container .techs-logo:before {
-    border-bottom: 8px solid #05fab8;
+    border-bottom: 8px solid red;
   }
   .techs-container .techs-h2 {
     margin-top: 10px;
@@ -1080,7 +1080,7 @@ main .container:before {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(5, 250, 184, 0.7);
+    background-color: rgba(255, 0, 0, 0.7);
     z-index: 0;
   }
   .testimonials-left {
