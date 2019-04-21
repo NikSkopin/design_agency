@@ -1,0 +1,24 @@
+{
+  "name": "design_agency",
+  "version": "1.0.0",
+  "description": "responsive web site for a design agency",
+  "main": "index.js",
+  "homepage": "https://NikSkopin.github.io/design_agency",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikSkopin/design_agency.git"
+  },
+  "author": "Nikita Skopin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikSkopin/design_agency/issues"
+  },
+  "homepage": "https://github.com/NikSkopin/design_agency#readme"
+}
