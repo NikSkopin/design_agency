@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "responsive web site for a design agency",
   "main": "index.js",
-  "homepage": "https://NikSkopin.github.io/design_agency",
+  "homepage": "https://nikskopin.github.io/design_agency",
   "dependencies": {
     "gh-pages": "^2.0.1"
   },
