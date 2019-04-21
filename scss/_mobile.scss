@@ -240,6 +240,10 @@
         margin: 0 auto;
     }
 
+    h1 {
+        font-size: 3rem;
+    }
+
     main {
         height: auto;
 
@@ -266,6 +270,7 @@
     .main-slogan {
         margin-top: 100px;
         margin-bottom: 50px;
+        font-size: 50px;
 
         &-p1 {
             display: block;
@@ -374,6 +379,7 @@
 
         &-right {
             h1 {
+                font-size: 40px;
                 margin-bottom: 30px;
                 width: auto;
                 &::before {
@@ -388,6 +394,8 @@
 
         .quote-container {
             margin-top: 50px;
+            padding-left: 1rem;
+            padding-right: 1rem;
         }
 
     }
@@ -397,10 +405,15 @@
         h1 {
             margin: 0;
         }
+
+        p {
+            font-size: 20px;
+        }
     }
 
     //send-us
     .send-us {
+        
         .scroll-to-top {
             display: none;
         }
@@ -409,6 +422,7 @@
     //footer
     .footer {
         flex-flow: row wrap-reverse;
+        font-size: 14px;
 
         p {
             flex: none;
@@ -423,6 +437,7 @@
         .social-media {
             flex: none;
             margin-bottom: 20px;
+            font-size: 20px;
         }
     }
 }
